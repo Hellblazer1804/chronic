@@ -17,17 +17,17 @@ var count = 1;
 for (var i = 1; i <= 50; i++) {
     rows.push(i);
 }
-for (var i = 0; i < 4; i++) {
-    cols.push(i);
+for (var j = 0; j < 4; i++) {
+    cols.push(j);
 }
-for (var i = 0; i < rows.length; i++) {
-    total.push(i + 1);
+for (var k = 0; k < rows.length; i++) {
+    total.push(k + 1);
 }
 
 class PageButton extends React.Component {
     render () {
         //reference this code for icon background
-        if (count == 1) { //placeholder code for page1 as proof of concept
+        if (count === 1) { //placeholder code for page1 as proof of concept
             return (
                 <Card className = "hoverable" bg = "light" text = "dark"> 
                     <Link to = {"/page" + count} style = {{textDecoration : "none", color : "black"}}>
@@ -71,7 +71,7 @@ class Pages extends React.Component {
         )
     }
 }
-
+/*eslint no-useless-constructor: "error"*/
 class Window extends React.Component {
     constructor(props) {
         super(props);
