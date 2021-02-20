@@ -73,9 +73,9 @@ class Pages extends React.Component {
 }
 /*eslint no-useless-constructor: "error"*/
 class Window extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+//     constructor(props) {
+//         super(props);
+//     }
     render() {
         return (
             <div>
